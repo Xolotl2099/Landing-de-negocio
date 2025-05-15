@@ -10,3 +10,87 @@ header {
     height: 80px;
     background-color: #18181A;
 }
+
+.header-principal{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+eader nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.enlaces {
+    width: 300px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlaces a{
+    text-decoration: none;
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+}
+
+.enlaces img {
+    margin-left: 250px;
+    width: 80px;
+    height: 80px;
+}
+
+.e2{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    justify-content: center;
+
+}
+
+header nav .registro{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+
+.registro {
+    width: 300px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro a{
+    text-decoration: none;
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    margin-right: 5px;
+    color: white;
+}
+
+.e3{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    justify-content: center;
+}
