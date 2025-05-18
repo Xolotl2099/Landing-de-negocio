@@ -99,18 +99,17 @@ header nav .registro{
     width: 100%;
 	max-width: 1800px;
 	margin: auto;
-	padding: 40PX 0;
+	padding: 40PX;
 	display: grid;
 	grid-template-columns: 2fr 2fr;	
 	gap: 20px;
 
 }
 
-.jumbotron{
+div .jumbotron{
     border-radius: 10px;
 	min-height: 300px;
 	font-weight: bold;
-	padding: 20px;
 	position: relative;
 	overflow: hidden;
 	background-size: cover;
@@ -127,9 +126,6 @@ header nav .registro{
 
 }
 
-.jumbotron {
-        padding: 100px;
-    }
     
 .Banner-Textos h1 {
     font-size: 48px;
@@ -332,4 +328,105 @@ footer {
 
 .fab {
     font-size: 24px;
+}
+@media screen and (max-width: 900px) {
+    div .jumbotron {
+        width: 400px;
+        height: 400px;
+    }
+    .Banner-Textos{
+        width: -500px;
+        height: -500px;
+        padding: 15px
+    }
+
+    .Banner-Textos h1 {
+    font-size: 35px;
+    }
+
+.Banner-Textos p {
+    font-size: 18px;
+
+}
+    .Banner-Bienvenida{
+        padding: 5px;
+    
+    }
+
+
+	
+}
+
+@media screen and (max-width: 700px) {
+    nav{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    font-size: 10px; 
+    }
+
+    .enlaces{
+        justify-content: end;
+    }
+
+    .enlaces li {
+        padding: 0px;
+        width: 100px ;
+        height: 45px;
+    }
+
+    .enlaces img {
+      margin: -15px 70px;
+
+    }
+
+ .enlaces a{
+    text-decoration: none;
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    margin-right: 20px;
+    color: white;
+    }
+
+    .card {
+        width: 30px;
+        height: 10px;
+        padding-right: 35%;
+
+    }
+    .card .textos h3{
+        font-size: 20px; 
+        padding: 0;
+        margin-top: -100px;
+        margin-left: -90px;
+        width: 100px;
+        height: 50px;
+         display: flex;
+    flex-direction: column;	
+    }
+
+    .card .textos p{
+        font-size: 20px; 
+        padding: 0;
+        margin-top: 280gitpx;
+        margin-left: -90px;
+        width: 100px;
+        height: 50px;
+         display: flex;
+        flex-direction: column;	
+    }
+    .container > div.content {
+        grid-area: content;
+        font-size: px;
+        margin: 20px 150px;
+    }
+   
+
+
+    
+}
+
+@media .menu screen and (max-width: 600px) {
+
 }
