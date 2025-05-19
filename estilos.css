@@ -679,7 +679,7 @@ footer {
 
 @media screen and (max-width: 500px) {
 
-     nav{
+ nav{
     display: flex;
     flex-direction: row;
     width: 20px;
@@ -688,17 +688,19 @@ footer {
 
     .enlaces{
         justify-content: end;
+    margin: -100px;
     }
 
     .enlaces li {
-        padding: 0px;
+        padding: 00px;
         width: 100px ;
         height: 45px;
     }
 
     .enlaces img {
-      margin: -15px 70px;
-
+      margin: -5px 50px;
+      width: 50px;
+      height: 50px;
     }
 
  .enlaces a{
@@ -706,9 +708,24 @@ footer {
     display: flex;
     flex-direction:column;
     text-align: left;
-    margin-right: 20px;
+    margin-right: 0px;
+    margin-left: 20px;
     color: white;
     }
+
+   .e2{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height:30px;
+    justify-content: center;
+
+    
+}
+
+
 
     .e3{
     color: #FFFFFF;
@@ -722,8 +739,8 @@ footer {
 }
 
       div .jumbotron {
-        width: 300px;
-        height: 300px;
+        width: 220px;
+        height: 220px;
       }
 
     .Banner-Textos{
@@ -781,7 +798,7 @@ footer {
 }
 
 .linea2{
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 800;
 }
@@ -843,13 +860,13 @@ footer {
   grid-area: header;
   font-size: 20px;
   text-align: center;
-  padding-right: 100px;
+  padding-right: 30px;
 }
 
 .container > div.content {
   grid-area: content;
   font-size: 20px;
-  margin: 10px 10px;
+  margin: 0px 0px;
 }
 
 .container > div.content .p1 {
@@ -864,7 +881,7 @@ footer {
   width: 50px;
   height: 150px;
   background-color: #333;
-  margin: 20px;
+  margin: 0px;
   border-radius: 10px;
   min-height: 300px;
   font-weight: 100px;
