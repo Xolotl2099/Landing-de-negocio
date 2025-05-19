@@ -881,3 +881,224 @@ footer {
 
 
 }
+
+
+@media screen and (max-width: 400px) {
+
+     nav{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    font-size: 10px; 
+    }
+
+    .enlaces{
+        justify-content: end;
+    margin: -100px;
+    }
+
+    .enlaces li {
+        padding: 10px;
+        width: 100px ;
+        height: 45px;
+    }
+
+    .enlaces img {
+      margin: -5px 70px;
+      width: 50px;
+      height: 50px;
+
+    }
+
+ .enlaces a{
+    text-decoration: none;
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    margin-right: 20px;
+    color: white;
+    }
+
+
+    .e2{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width: 25px;
+    height:15px;
+    justify-content: center;
+    
+}
+
+    .e3{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height:50px;
+    justify-content: center;
+    
+}
+
+      div .jumbotron {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+       background-size:cover;
+
+      }
+
+    .Banner-Textos{
+        width: 100px;
+        height: 100px;
+        padding: 20px;
+        margin: -20px;
+    }
+
+    .Banner-Textos h1 {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0 -25px;
+    }
+
+.Banner-Textos p {
+    font-size: 10px;
+
+}
+    .Banner-Bienvenida{
+        padding: 5px;
+    
+    }
+
+
+    .div .blog {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 3fr;	
+    gap: 50px;
+}
+    
+.titulo {
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.Blog-principal{
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px 20px;
+
+}
+
+.Titulos{
+    background-color: #333;
+    text-align: center;
+    line-height: 50%;
+}
+
+.linea1{
+    font-size: 15px;
+
+}
+
+.linea2{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+.linea3{
+    font-size: 12px;
+    font-weight: 500;
+}
+    
+.Clases-guitarra {
+    background-color: #333;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:30px;
+    margin: -5px;
+}
+
+    .card {
+        width: 20px;
+        height: 1|px;
+        padding-right: 5%;
+
+    }
+
+    
+    .card .textos h3{
+        font-size: 15px; 
+        padding: 0;
+        margin-top: -100px;
+        margin-left: -90px;
+        width: 100px;
+        height: 50px;
+         display: flex;
+    flex-direction: column;	
+    }
+
+    .card .textos p{
+        font-size: 15px; 
+        padding: 0;
+        margin-top: 280px;
+        margin-left: -90px;
+        width: 100px;
+        height: 50px;
+         display: flex;
+        flex-direction: column;	
+    }
+    .container > div.content {
+        grid-area: content;
+        font-size: 100px;
+        margin: 50px 20px;
+    }
+
+    .container > div.header {
+  grid-area: header;
+  font-size: 15px;
+  text-align: center;
+  padding-right: 0x;
+  padding: 10px;
+}
+
+.container > div.content {
+  grid-area: content;
+  font-size: 15px;
+  margin: 30px -20px;
+}
+
+.container > div.content .p1 {
+     grid-area: content;
+    font-size: 15px;
+    
+
+}
+
+.container > div.menu {
+  grid-area: menu;
+  width: 5px;
+  height: 10px;
+  background-color: #333;
+  margin: 20px;
+  border-radius: 10px;
+  min-height: 300px;
+  font-weight: 100px;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position:center;
+
+
+  
+}
+
+}
