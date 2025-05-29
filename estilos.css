@@ -308,6 +308,7 @@ footer {
 }
 
 .footer-content {
+    font-size: 15px;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -327,8 +328,14 @@ footer {
 }
 
 .fab {
-    font-size: 24px;
+    font-size: 20px;
 }
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     div .jumbotron {
         width: 400px;
@@ -456,20 +463,9 @@ footer {
   overflow: hidden;
   background-size: cover;
   background-position:center;
-
-
   
 }
 
-
-
-
-
-   
-
-
-    
-}
 
 @media screen and (max-width: 600px) {
 
@@ -910,6 +906,241 @@ footer {
     }
 
     .enlaces{
+        justify-content: flex-end;
+    margin: -80px;
+    }
+
+    .enlaces li {
+        padding: 15px;
+        width: 50px ;
+        height: 15px;
+    }
+
+    .enlaces img {
+      margin: -10px 30px;
+      width: 50px;
+      height: 50px;
+
+    }
+
+ .enlaces a{
+    text-decoration: none;
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    margin-right: 20px;
+    color: white;
+    }
+
+
+    .e2{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width: 25px;
+    height:15px;
+    justify-content: center;
+    
+}
+
+    .e3{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height:50px;
+    justify-content: center;
+    
+}
+
+      div .jumbotron {
+        width: 200px;
+        height: 200px;
+        margin: 15px;
+       background-size:cover;
+
+      }
+
+    .Banner-Textos{
+        width: 100px;
+        height: 100px;
+        padding: 20px;
+        margin: -20px;
+    }
+
+    .Banner-Textos h1 {
+    font-size: 20px;
+    padding: 25px 0;
+    margin: 0 -25px;
+    }
+
+.Banner-Textos p {
+    font-size: 10px;
+
+}
+    .Banner-Bienvenida{
+        padding: 5px;
+    
+    }
+
+
+    .div .blog {
+    width: 90%;
+    max-width: 0px;
+    margin: 100px;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 3fr;	
+    gap: 10px;
+}
+    
+.titulo {
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.Blog-principal{
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px 20px;
+
+}
+
+.Titulos{
+    background-color: #333;
+    text-align: center;
+    line-height: 50%;
+}
+
+.linea1{
+    font-size: 15px;
+
+}
+
+.linea2{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+.linea3{
+    font-size: 12px;
+    font-weight: 500;
+}
+    
+.Clases-guitarra {
+    background-color: #333;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    margin: 20px;
+}
+
+    .card {
+        width: 100px;
+        height: 280px;
+        padding: 0%;
+        margin: 0px;
+
+    }
+    
+
+    
+    .card .textos h3{
+        font-size: 15px; 
+        padding: 0;
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 100px;
+        height: 50px;
+         display: flex;
+    flex-direction: column;	
+    }
+
+    div .textos{
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        height: 280px;
+       
+        
+    }
+
+    .card .textos p{
+        font-size: 14px; 
+        padding: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100px;
+        height: 20px;
+         display: flex;
+        flex-direction: column;	
+    }
+    .container > div.content {
+        grid-area: content;
+        font-size: 100px;
+        margin: 50px 20px;
+    }
+
+    .container > div.header {
+  font-size: 15px;
+  text-align: center;
+  padding-right: 5px;
+  padding: 0px;
+}
+
+.container > div.content {
+  grid-area: content;
+  font-size: 15px;
+  margin: 0px 0px;
+}
+
+.container > div.content .p1 {
+     grid-area: content;
+    font-size: 15px;
+    
+
+}
+
+.container > div.menu {
+  grid-area: menu;
+  width: 150px;
+  height: 380px;
+  background-color: #333;
+  margin: 10px;
+  border-radius: 50px;
+  min-height: 300px;
+  font-weight: 10px;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+
+
+
+  
+}
+
+.p{
+    font-weight: 10px;
+
+}
+
+}
+
+@media screen and (max-width: 300px) {
+
+     nav{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    font-size: 10px; 
+    }
+
+    .enlaces{
         justify-content: end;
     margin: -100px;
     }
@@ -1117,5 +1348,8 @@ footer {
 
   
 }
+
+.p{
+    font-weight: 10px;
 
 }
